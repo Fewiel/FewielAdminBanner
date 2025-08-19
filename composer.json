@@ -1,0 +1,31 @@
+{
+    "name": "fewiel/admin-banner",
+    "authors": [
+        {
+            "name": "Phillip Weitkamp"
+        }
+    ],
+    "description": "Adds a thin configurable banner to the Shopware Administration.",
+    "type": "shopware-platform-plugin",
+    "license": "MIT",
+    "version": "1.0.0",
+    "require": {
+        "shopware/core": ">=6.7.0 <6.8.0"
+    },
+    "extra": {
+        "shopware-plugin-class": "Fewiel\\AdminBanner\\FewielAdminBanner",
+        "label": {
+            "en-GB": "Admin Banner",
+            "de-DE": "Admin-Banner"
+        },
+        "description": {
+            "en-GB": "Adds a thin configurable banner to the Administration UI.",
+            "de-DE": "Fügt der Administration einen dünnen, konfigurierbaren Banner hinzu."
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Fewiel\\AdminBanner\\": "src/"
+        }
+    }
+}

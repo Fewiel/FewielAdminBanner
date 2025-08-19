@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/shopware/platform/trunk/src/Core/System/SystemConfig/Schema/config.xsd">
+
+    <card>
+        <title>Admin Banner</title>
+
+        <input-field type="text">
+            <name>bannerText</name>
+            <label>Banner text</label>
+            <helpText>Text to display in the Administration banner.</helpText>
+            <defaultValue>Sandbox / Staging</defaultValue>
+        </input-field>
+
+        <input-field type="text">
+            <name>backgroundColor</name>
+            <label>Background color (HEX or CSS color)</label>
+            <helpText>Examples: #1a1a1a, #ff9900, rgb(10, 10, 10), or a CSS color name.</helpText>
+            <defaultValue>#1a1a1a</defaultValue>
+        </input-field>
+    </card>
+</config>
